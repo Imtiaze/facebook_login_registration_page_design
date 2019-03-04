@@ -95,6 +95,90 @@ a:hover{
 }
 
 
+/* facebook sighup section desgin */
+
+.signup-area{
+	
+ 	background:linear-gradient(#fff, #D3D8E8); 
+}
+
+.signup-area:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.signup-left{
+	float:left;
+	width:60%;
+}
+.signup-right{
+	float:left;
+	width:40%;
+}
+
+.signup-left h2{
+	font-size:20px;
+	width: 75%;
+	color: #0E385F;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+
+.signup-right h1{
+	color: #333333;
+	font-size: 35px;
+	margin-top: 30px;
+	margin-bottom: 7px;
+}
+.signup-right h3{
+	color: #333333;
+	font-weight: normal;
+	font-size: 20px;
+	margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
