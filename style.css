@@ -1,3 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+
 .header-section {
   background: #405d9b;
+ 
 }
+.middle-area{
+  width: 75%;
+  margin:auto;
+  padding:5px 0;
+}
+
+.logo-area {
+  width: 30%;
+  float: left;
+  overflow: hidden;
+}
+.logo-area img {
+	margin-top: 18px;
+}
+
+.login-area{
+  width: 70%;
+  overflow: hidden;
+  margin-top: 18px;
+}
+
+.login-area input{
+	display: block;
+	margin-right: 15px;
+}
+.login-area form {
+	float:right;
+}
+.email-phone{
+	float:left;
+	overflow:hidden;
+}
+.password{
+	float:left;
+	overflow:hidden;
+}
+
+.log-in{
+	float:left;
+	overflow:hidden;
+}
+
+.login-area label {
+	color: #fff;
+	font-weight:normal;
+	cursor:pointer;
+}
+.email-phone input{
+	padding:2px 4px;
+	margin-top: 3px;
+	border: 1px solid #1d2a5b;
+}
+
+.password input {	
+	margin-top: 3px;
+	padding: 2px 4px;
+	border: 1px solid #1d2a5b;
+}
+
+.password a{
+	color: #9cb4d8;
+	font-weight:normal;
+}
+
+.log-in input{
+	margin-top:18px;
+	background: #4267b2;
+	border-radius:2px;
+	font-weight:bold;
+	padding: 2px 6px;
+	text-align:center;
+	cursor:pointer;
+	border: 1px solid #29487d;
+	color: #fff;
+}
+.log-in input:hover{
+	background: #365899;
+}
+
+
+
+
+
+
