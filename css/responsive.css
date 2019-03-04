@@ -1,0 +1,39 @@
+@media all and (max-width:800px){
+	.middle-area{
+	  width: 90%;
+	}
+}
+
+@media all and (max-width:672px) {
+	.logo-area{
+		width: 100%;
+		float: none;
+	}
+	.login-area{
+		width:100%;
+	}
+	.login-area form {
+		float: none;
+	}
+	.email-phone{
+		float: none;
+	}
+	.password{
+		float: none;
+	}
+	.log-in{
+		float: none;
+	}
+	.login-area input[type="text"],
+	.login-area input[type="password"]{
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.password label {
+		display:block;
+		margin-top:7px;
+	}
+	.logo-area img {
+		margin: 0;
+	}
+}
